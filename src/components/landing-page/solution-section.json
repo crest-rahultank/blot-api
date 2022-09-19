@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_landing_page_solution_sections",
+  "info": {
+    "displayName": "solution_section",
+    "icon": "user-secret",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "solution_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu.link"
+    },
+    "display_heading": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_landing_page_our_impacts",
+  "info": {
+    "displayName": "Our_impact",
+    "icon": "file-import"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Impacts": {
+      "displayName": "Impacts",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.impacts"
+    }
+  }
+}

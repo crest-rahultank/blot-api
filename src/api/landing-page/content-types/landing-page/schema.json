@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "Landing-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Slider": {
+      "displayName": "slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.slider"
+    },
+    "our_impacts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.our-impact"
+    },
+    "bolt_solution": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.solution"
+    },
+    "news_and_article": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.news-and-article"
+    },
+    "company_logo_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.company-logo"
+    }
+  }
+}

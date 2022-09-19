@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_landing_page_company_logos",
+  "info": {
+    "displayName": "company_logo",
+    "icon": "file-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "company_logo_heading": {
+      "type": "string"
+    },
+    "company_logo_image": {
+      "displayName": "company_logo_image",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.company-logo-image"
+    }
+  }
+}

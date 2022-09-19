@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_landing_page_impacts",
+  "info": {
+    "displayName": "Impacts",
+    "icon": "file-import"
+  },
+  "options": {},
+  "attributes": {
+    "numbers_of_user": {
+      "type": "string"
+    },
+    "user_type": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

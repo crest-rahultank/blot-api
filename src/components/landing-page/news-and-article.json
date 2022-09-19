@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_landing_page_news_and_articles",
+  "info": {
+    "displayName": "News & Article",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu.link"
+    },
+    "news_block": {
+      "displayName": "news_and_article_blok",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.news-and-article-blok"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_landing_page_solutions",
+  "info": {
+    "displayName": "solution",
+    "icon": "solar-panel"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "solution_button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu.link"
+    },
+    "solution_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "solution_section": {
+      "displayName": "solution_section",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.solution-section"
+    }
+  }
+}
